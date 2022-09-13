@@ -9,13 +9,15 @@ function App() {
 
 
   const [wordList, setWordList] = useState([]);
+  const [lang, setLang] = useState("fr");
 
   let getWords = (definition) => {
     //convert input text to lower case
  fetch('https://9fbd-2a01-cb1d-83fc-e000-98cb-cbde-cac6-4f52.ngrok.io',{
       method: 'POST',
       body: JSON.stringify({
-        definition:definition
+        definition:definition,
+        lang:lang
       }),
       headers: {
         'Content-type': 'application/json;',
