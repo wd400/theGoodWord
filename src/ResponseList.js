@@ -5,7 +5,7 @@ import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import Typography from '@mui/material/Typography';
 
-export default function ResponseList({words}) {
+export default function ResponseList({words,lang}) {
     //create a new array by filtering the original array
 
     /*
@@ -27,7 +27,7 @@ export default function ResponseList({words}) {
         <List sx={{ width: '70%',  bgcolor: 'background.paper' }}>
 
 {words.map((item) => (
-        <ListItem alignItems="flex-start" button component="a" href={"https://fr.wiktionary.org/wiki/"+item[0]} target="_blank">
+        <ListItem alignItems="flex-start" button component="a" href={"https://"+lang+".wiktionary.org/wiki/"+item[0]} target="_blank">
   
   
           <ListItemText
