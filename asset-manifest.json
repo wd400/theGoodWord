@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/theGoodWord/static/css/main.33a330a5.css",
-    "main.js": "/theGoodWord/static/js/main.f129dfc7.js",
+    "main.css": "/theGoodWord/static/css/main.9a1ed8de.css",
+    "main.js": "/theGoodWord/static/js/main.18558b5a.js",
     "static/js/787.a3904150.chunk.js": "/theGoodWord/static/js/787.a3904150.chunk.js",
     "index.html": "/theGoodWord/index.html",
-    "main.33a330a5.css.map": "/theGoodWord/static/css/main.33a330a5.css.map",
-    "main.f129dfc7.js.map": "/theGoodWord/static/js/main.f129dfc7.js.map",
+    "main.9a1ed8de.css.map": "/theGoodWord/static/css/main.9a1ed8de.css.map",
+    "main.18558b5a.js.map": "/theGoodWord/static/js/main.18558b5a.js.map",
     "787.a3904150.chunk.js.map": "/theGoodWord/static/js/787.a3904150.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33a330a5.css",
-    "static/js/main.f129dfc7.js"
+    "static/css/main.9a1ed8de.css",
+    "static/js/main.18558b5a.js"
   ]
 }
