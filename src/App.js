@@ -100,7 +100,7 @@ setLang(e.target.value)
    {loading &&  <SVGComponent  style={{  position: 'absolute' }}/>}  
 
     
-{loading && ⏳ ~30s.}
+{loading &&  <h6>⏳ ~30s.</h6>}
       { wordList.length>0 &&
         <ResponseList words={wordList} lang={lang} />
       } 
