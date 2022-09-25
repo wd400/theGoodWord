@@ -21,7 +21,7 @@ function App() {
 
     setWordList([])
     //convert input text to lower case
- fetch('http://localhost:8000',{
+ fetch('https://fca6-2a01-cb1d-83fc-e000-d1ea-1056-6e67-b6b1.eu.ngrok.io',{
       method: 'POST',
       body: JSON.stringify({
         definition:definition,
