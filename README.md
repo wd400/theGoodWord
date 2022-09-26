@@ -6,4 +6,4 @@
 <br>
 
 
-Service to find english/french words from their approximate definition. Using sentence embeddings, the K-nearest algorithm and the french Wiktionary.
+Service to find english/french words from their approximate definition. Using sentence embeddings, the K-nearest algorithm and Wiktionary.
