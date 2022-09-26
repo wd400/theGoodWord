@@ -35,7 +35,7 @@ const SVGComponent = (props) => (
                 fill: "rgb(172, 189, 129)",
               }}
             />
-  <text x="20" y="55" fontSize="24">⏳~30s.</text>
+  <text x="20" y="55" fontSize="10">⏳~30s.</text>
 
           </g>
         </g>
