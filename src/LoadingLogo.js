@@ -35,6 +35,8 @@ const SVGComponent = (props) => (
                 fill: "rgb(172, 189, 129)",
               }}
             />
+  <text x="20" y="55" class="small">⏳ ~30s.</text>
+
           </g>
         </g>
         <g className="ldl-layer">
