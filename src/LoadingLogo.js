@@ -8,7 +8,7 @@ const SVGComponent = (props) => (
     x={0}
     xmlns="http://www.w3.org/2000/svg"
     {...props}
-    width="30%"
+    width="100%"
   >
     <g
       style={{
@@ -35,7 +35,7 @@ const SVGComponent = (props) => (
                 fill: "rgb(172, 189, 129)",
               }}
             />
-  <text x="20" y="55" fontSize="10">⏳~30s.</text>
+  <text x="20" y="55" fontSize="10">⏳&lt; 30s.</text>
 
           </g>
         </g>

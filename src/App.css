@@ -3,8 +3,12 @@
 }
 
 
+
+
+
 .App-header {
-  background-color: #e0d0d0;
+ /* background-color: #e0d0d0; */
+ background: -webkit-linear-gradient(#f6d365, #fda085);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,13 +28,14 @@ h1 {
 /*  color: rgb(0, 0, 0); */
 }
 
+
+
+
 .search {
   width: 70%;
 }
 
-ul li {
-  font-size: 20px;
-} 
+
 
 @keyframes breath
 {
@@ -46,4 +51,5 @@ ul li {
     transform: scale(0.9099999999999999);
   }
 }
+
 

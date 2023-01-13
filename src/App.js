@@ -40,19 +40,13 @@ function App() {
       }).catch(error =>  setLoading(false))
       
   }
-
-
-
-
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Le bon mot</h1>
-        <h5>Trouvez un mot à partir de sa définition (approximative)
-        <br/>
+        <h1>The good word</h1>
+        <h5>
           Find a word from its (approximate) definition
         </h5>
-
 
 
         <RadioGroup
@@ -96,10 +90,15 @@ setLang(e.target.value)
           size="small"
           inputProps={{ maxLength: 200 }}          
         />
-      </div>
-   {loading &&  <SVGComponent  style={{  position: 'absolute' }}/>}  
 
-    
+      </div>
+   {loading &&  
+   //center the big loading logo
+    <div style={{display:"flex", justifyContent:"center", alignItems:"center", height:"100%"}}>
+      <SVGComponent />
+    </div>
+
+   }  
 
       { wordList.length>0 &&
         <ResponseList words={wordList} lang={lang} />

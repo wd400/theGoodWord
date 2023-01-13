@@ -24,11 +24,14 @@ export default function ResponseList({words,lang}) {
 
     return (
 
-        <List sx={{ width: '70%',  bgcolor: 'background.paper' }}>
+        <List sx={{ width: '70%',  bgcolor: 'background.paper' }} >
+
+
 
 {words.map((item) => (
-        <ListItem alignItems="flex-start" button component="a" href={"https://"+lang+".wiktionary.org/wiki/"+item[0]} target="_blank">
-  
+        <ListItem sx={{ '&:hover': { bgcolor: '#f5f5f5' } }} alignItems="flex-start"  component="a" href={"https://"+lang+".wiktionary.org/wiki/"+item[0]} target="_blank"  >
+
+
   
           <ListItemText
             primary={item[0]}
