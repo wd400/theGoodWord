@@ -1,0 +1,12 @@
+version: '3'
+services:
+  backend:
+    build: ./docker_backend
+    ports:
+      - "8000:8000"
+    restart: always
+    volumes:
+      - cache:/cache/
+      
+volumes:
+  cache:

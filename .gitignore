@@ -1,0 +1,3 @@
+*.npy
+*.db
+/__pycache__
