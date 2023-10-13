@@ -21,7 +21,7 @@ function App() {
 
     setWordList([])
     //convert input text to lower case
- fetch('https://cb13-81-64-42-202.eu.ngrok.io/tgw',{
+ fetch('‌https://dashing-poodle-supposedly.ngrok-free.app/tgw',{
       method: 'POST',
       body: JSON.stringify({
         definition:definition,
